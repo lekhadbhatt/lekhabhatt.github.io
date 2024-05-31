@@ -262,6 +262,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    z-index: 1;
 }
 
 .gallery-item {
@@ -273,7 +274,7 @@ body {
     height: auto;
     display: block;
     transition: transform 0.3s ease;
-    z-index: -1;
+    
 }
 
 .gallery-item img:hover {
