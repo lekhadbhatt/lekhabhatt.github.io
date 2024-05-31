@@ -266,7 +266,6 @@ body {
 
 .gallery-item {
     overflow: hidden;
-     z-index: 0;
 }
 
 .gallery-item img {
@@ -274,6 +273,7 @@ body {
     height: auto;
     display: block;
     transition: transform 0.3s ease;
+   z-index: 1;
 }
 
 .gallery-item img:hover {
