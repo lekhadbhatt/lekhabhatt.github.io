@@ -266,6 +266,7 @@ body {
 
 .gallery-item {
     overflow: hidden;
+     z-index: 0;
 }
 
 .gallery-item img {
